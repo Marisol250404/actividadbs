@@ -1,0 +1,87 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial */
+    background-color: #f4f4f9; /* Fondo claro para el cuerpo */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333; /* Color oscuro para los títulos */
+    text-align: center; /* Centra los títulos */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff; /* Fondo blanco para el párrafo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+ul, ol {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 20px;
+    background-color: #aa0c0c; /* Fondo blanco para las listas */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+ul li, ol li {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre elementos */
+}
+
+ul li:last-child, ol li:last-child {
+    border-bottom: none; /* Elimina la línea en el último elemento */
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center; /* Centra los enlaces en la barra */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Los elementos de la lista se muestran en línea */
+    margin: 0 15px; /* Espacio entre los elementos */
+}
+
+nav a {
+    color: white; /* Color de texto blanco */
+    text-decoration: none; /* Elimina el subrayado */
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #ddd; /* Fondo gris cuando se pasa el cursor */
+    color: black; /* Cambia el color del texto */
+    border-radius: 5px; /* Bordes redondeados en el hover */
+}
+
+/* Enlace de Pinterest */
+a {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    color: #0077b5; /* Color azul de Pinterest */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005f8d; /* Cambio de color cuando se pasa el cursor */
+}
